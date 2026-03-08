@@ -58,15 +58,3 @@ cd ..
 
 # удаляем директорию task со всем содержимым
 rm -rf task
-LAPTOP-B8EQH3E9:~# apt update && apt install git -y
--sh: apt: not found
-LAPTOP-B8EQH3E9:~# cat /etc/os-release
-PRETTY_NAME="Docker Desktop"
-LAPTOP-B8EQH3E9:~# apt-get update && apt-get install -y git
--sh: apt-get: not found
-LAPTOP-B8EQH3E9:~# microdnf install git
--sh: microdnf: not found
-LAPTOP-B8EQH3E9:~# yum install git
--sh: yum: not found
-LAPTOP-B8EQH3E9:~# cat /root/task.sh
-#!/bin/bash
